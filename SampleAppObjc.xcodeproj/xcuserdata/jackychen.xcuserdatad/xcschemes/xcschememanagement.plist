@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SampleAppObjc.xcscheme</key>
+		<key>CucumberishUITest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SampleAppObjc.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6D4B39BE1E15FB8600068878</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6D7F79F41E15092A00DBD588</key>
 		<dict>
 			<key>primary</key>

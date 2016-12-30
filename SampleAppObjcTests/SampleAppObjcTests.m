@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Bank.h"
 
 @interface SampleAppObjcTests : XCTestCase
 
@@ -24,16 +25,17 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testCalculateBalance
+{
+    CGFloat balance = [Bank CalculateBalanceWithCaptital:1000 interest:0.05f];
+    XCTAssertEqual(balance, 1050.0f);
 }
 
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
+//- (void)testPerformanceExample {
+//    // This is an example of a performance test case.
+//    [self measureBlock:^{
+//        // Put the code you want to measure the time of here.
+//    }];
+//}
 
 @end
