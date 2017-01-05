@@ -30,7 +30,7 @@
     CGFloat capital = [_capitalText.text floatValue];
     CGFloat interest = [_interestText.text floatValue];
     
-    _revenueLabel.text = [NSString stringWithFormat:@"%.1f", [Bank CalculateBalanceWithCaptital:capital interest:interest]];
+    _revenueLabel.text = [NSString stringWithFormat:@"%.2f", [Bank CalculateBalanceWithCaptital:capital interest:interest]];
 }
 
 - (void)viewDidLoad
