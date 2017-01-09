@@ -58,6 +58,7 @@
 		6D4B3A681E15FBAD00068878 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4B3A371E15FBAD00068878 /* NSObject+Dictionary.m */; };
 		6D4B3A691E15FBAD00068878 /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4B3A391E15FBAD00068878 /* NSString+Formatter.m */; };
 		6D4B3A6D1E15FCCC00068878 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 6D4B3A6C1E15FCCC00068878 /* Features */; };
+		6D7788AA1E23864800FFA898 /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F7A241E15108B00DBD588 /* Bank.m */; };
 		6D7F79FA1E15092A00DBD588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F79F91E15092A00DBD588 /* main.m */; };
 		6D7F79FD1E15092A00DBD588 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F79FC1E15092A00DBD588 /* AppDelegate.m */; };
 		6D7F7A001E15092A00DBD588 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F79FF1E15092A00DBD588 /* ViewController.m */; };
@@ -568,7 +569,6 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = NAX24929CJ;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 6D7F79F41E15092A00DBD588;
 					};
 				};
 			};
@@ -710,6 +710,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D7F7A131E15092A00DBD588 /* SampleAppObjcTests.m in Sources */,
+				6D7788AA1E23864800FFA898 /* Bank.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -905,26 +906,22 @@
 		6D7F7A1B1E15092A00DBD588 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = NAX24929CJ;
 				INFOPLIST_FILE = SampleAppObjcTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.cathaylife.SampleAppObjcTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleAppObjc.app/SampleAppObjc";
 			};
 			name = Debug;
 		};
 		6D7F7A1C1E15092A00DBD588 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = NAX24929CJ;
 				INFOPLIST_FILE = SampleAppObjcTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.cathaylife.SampleAppObjcTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleAppObjc.app/SampleAppObjc";
 			};
 			name = Release;
 		};
@@ -938,6 +935,7 @@
 				6D4B39C91E15FB8600068878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D7F79F01E15092A00DBD588 /* Build configuration list for PBXProject "SampleAppObjc" */ = {
 			isa = XCConfigurationList;

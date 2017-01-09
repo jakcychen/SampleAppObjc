@@ -26,7 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -35,16 +36,6 @@
                BlueprintIdentifier = "6D7F7A0D1E15092A00DBD588"
                BuildableName = "SampleAppObjcTests.xctest"
                BlueprintName = "SampleAppObjcTests"
-               ReferencedContainer = "container:SampleAppObjc.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6D4B39BE1E15FB8600068878"
-               BuildableName = "CucumberishUITest.xctest"
-               BlueprintName = "CucumberishUITest"
                ReferencedContainer = "container:SampleAppObjc.xcodeproj">
             </BuildableReference>
          </TestableReference>
